@@ -1,4 +1,5 @@
 # Account
+Simulation of bank account transactions
 
 ## Overview
 Account is a package that simulates bank account transactions. It supports the following features: 
@@ -38,7 +39,7 @@ Account is a package that simulates bank account transactions. It supports the f
     fmt.Println(user.Bal)
     // Returns 250
 
-    // Closes or terminates all activities on that account. It returns the remaining balance in the account
+    // Closes all activities on that account. Returns balance left
     payout, err := user.Close()
 	if err != nil {
 		fmt.Println(err)
