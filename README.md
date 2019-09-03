@@ -9,7 +9,7 @@ Account is a package that simulates bank account transactions. It supports the f
 - Withdrawal of funds from an account
 - Closing of an account
 
-## Usage 
+## API Usage 
 ```go
     // Opens (creates) a new account
     user := account.Open(200)
