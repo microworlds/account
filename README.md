@@ -1,8 +1,8 @@
 # Account
-Simulation of bank account transactions
+Simulation of bank account transactions.
 
 ## Overview
-Account is a package that simulates bank account transactions. It supports the following features: 
+Account is a package that simulates bank account transactions. All transactions are thread safe hence transactions can be perfomed on multiple platforms e.g POS, ATM, Payment API gateways, Banks, etc. It supports the following features:
 - Opening of new account
 - Depositing funds to an account
 - Checking balance of an account
